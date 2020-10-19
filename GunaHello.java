@@ -7,10 +7,6 @@ public class oddoreven {
         System.out.println("Enter Your Number: ");
         Scanner index = new Scanner(System.in);
         i = index.nextInt();
-        if (i % 2 == 0)
-
-            System.out.println("even");
-        else
-        	System.out.println("odd");
+        (i%2 == 0) ? System.out.println("The number is even.") : System.out.println("The number is odd");
 }
 }
